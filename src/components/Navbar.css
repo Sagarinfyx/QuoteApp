@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+.navbar {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.link-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .link-button {
+    width: 100%;
+  }
+}

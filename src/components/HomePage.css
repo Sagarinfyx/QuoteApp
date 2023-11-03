@@ -1,0 +1,18 @@
+.home-page {
+    text-align: center;
+  }
+  
+  .quote-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quote {
+    border: 1px solid #ddd; /* Use your desired border style */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 60%; /* Use your desired width */
+  }
+  
